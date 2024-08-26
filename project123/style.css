@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 98px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  margin-left: 658px;
+  align-items: center;
+  gap: 50px;
+}
+
+nav > p:hover{
+    color: rgba(124, 78, 228, 1)
+}
+
+header > .container > .head > img {
+  margin-right: 15px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+    
+}
+
+ .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.container > .head > nav > p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+main {
+  background-color: rgba(124, 78, 228, 1);
+  height: 860px;
+  width: 100%;
+}
+
+.btm {
+    color: white;
+    background-color: rgba(124, 78, 228, 1);
+    border: none;
+    width: 180px;
+    height: 56px;
+    border-radius: 10px;
+}
+
+.dva {
+    padding-top: 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dva > .aa > .pp {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 37px;
+}
+
+.dva > .aa > .ppp {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 28px;
+
+}
+
+.pppp {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 64px;
+}
+
+
+.btn2 {
+    color: black;
+    background-color: white;
+    height: 53px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+.dv {
+  padding-top: 127px;
+
+
+}
+
+.gg {
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 104px;
+  padding-bottom: 42px;
+  position: relative;
+
+}
+
+.fl {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+
+  
+
+  h1 {
+    font-weight: 700;
+    font-size: 12px;
+
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(153, 153, 153, 1);
+
+  }
+
+}
+
+.zz {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.oo {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-top: 7px;
+
+}
+
+.read {
+  height: 40px;
+  width: 125px;
+  background-color: white;
+  color: rgba(124, 78, 228, 1);
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-top: 48px;
+}
+
+.dv {
+  width: 100%;
+  
+
+}
+
+
+
+.dv > img {
+  width: 100%;
+
+}
+
+.sss {
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  border-radius: 16px;
+  position: relative;
+  bottom: 230px;
+  left: 440px;
+  height: 360px;
+}
